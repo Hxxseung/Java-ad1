@@ -4,7 +4,7 @@ import static util.MyLogger.log;
 
 public class StartTest2Main {
     public static void main(String[] args) {
-        Thread thread = new Thread(new CounterRunnable());
+        Thread thread = new Thread(new CounterRunnable(), "counter");
         thread.start();
     }
 
