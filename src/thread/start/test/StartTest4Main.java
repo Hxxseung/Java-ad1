@@ -27,7 +27,7 @@ public class StartTest4Main {
                 try {
                     Thread.sleep(sleepMs);
                 } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+                    e.printStackTrace();
                 }
             }
         }
